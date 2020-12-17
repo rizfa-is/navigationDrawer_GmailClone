@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer"
+    app:startDestination="@id/nav_all">
+
+    <fragment
+        android:id="@+id/nav_all"
+        android:name="com.istekno.week6navigationdrawer.fragments.AllInboxFragment"
+        android:label="@string/all_inbox"
+        tools:layout="@layout/fragment_all_inbox"
+        />
+
+    <fragment
+        android:id="@+id/nav_main_mail"
+        android:name="com.istekno.week6navigationdrawer.fragments.MainFragment"
+        android:label="@string/main"
+        tools:layout="@layout/fragment_main"
+        />
+
+    <fragment
+        android:id="@+id/nav_social"
+        android:name="com.istekno.week6navigationdrawer.fragments.SocialFragment"
+        android:label="@string/social"
+        tools:layout="@layout/fragment_social"
+        />
+
+    <fragment
+        android:id="@+id/nav_promotion"
+        android:name="com.istekno.week6navigationdrawer.fragments.PromotionFragment"
+        android:label="@string/promotion"
+        tools:layout="@layout/fragment_promotion"
+        />
+
+    <fragment
+        android:id="@+id/nav_starred"
+        android:name="com.istekno.week6navigationdrawer.fragments.StarredFragment"
+        android:label="@string/starred"
+        tools:layout="@layout/fragment_starred"
+        />
+
+    <fragment
+        android:id="@+id/nav_pending"
+        android:name="com.istekno.week6navigationdrawer.fragments.PendingFragment"
+        android:label="@string/pending"
+        tools:layout="@layout/fragment_pending"
+        />
+
+    <fragment
+        android:id="@+id/nav_sent"
+        android:name="com.istekno.week6navigationdrawer.fragments.SentFragment"
+        android:label="@string/sent"
+        tools:layout="@layout/fragment_sent"
+        />
+
+    <fragment
+        android:id="@+id/nav_outbox"
+        android:name="com.istekno.week6navigationdrawer.fragments.OutboxFragment"
+        android:label="@string/outbox"
+        tools:layout="@layout/fragment_outbox"
+        />
+
+    <fragment
+        android:id="@+id/nav_draf"
+        android:name="com.istekno.week6navigationdrawer.fragments.DraftFragment"
+        android:label="@string/draft"
+        tools:layout="@layout/fragment_draft"
+        />
+
+    <fragment
+        android:id="@+id/nav_spam"
+        android:name="com.istekno.week6navigationdrawer.fragments.SpamFragment"
+        android:label="@string/spam"
+        tools:layout="@layout/fragment_spam"
+        />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.istekno.week6navigationdrawer.fragments.CalendarFragment"
+        android:label="@string/calendar"
+        tools:layout="@layout/fragment_calendar"
+        />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.istekno.week6navigationdrawer.fragments.ContactFragment"
+        android:label="@string/contact"
+        tools:layout="@layout/fragment_contact"
+        />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.istekno.week6navigationdrawer.fragments.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting"
+        />
+
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.istekno.week6navigationdrawer.fragments.SupportFragment"
+        android:label="@string/support_amp_feedback"
+        tools:layout="@layout/fragment_support"
+        />
+
+</navigation>

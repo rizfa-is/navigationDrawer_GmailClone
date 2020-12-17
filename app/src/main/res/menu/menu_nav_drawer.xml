@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/groupA">
+        <item
+            android:id="@+id/nav_all"
+            android:title="@string/all_inbox"
+            android:icon="@drawable/ic_all_inbox"/>
+    </group>
+
+    <item
+            android:id="@+id/nav_main_mail"
+            android:title="@string/main"
+            android:icon="@drawable/ic_inbox"/>
+
+    <item
+            android:id="@+id/nav_social"
+            android:title="@string/social"
+            android:icon="@drawable/ic_social"/>
+
+    <item
+            android:id="@+id/nav_promotion"
+            android:title="@string/promotion"
+            android:icon="@drawable/ic_promotion"/>
+
+    <item android:id="@+id/itemgroup_all_label"
+        android:title="@string/all_label">
+        <menu>
+            <item
+                android:id="@+id/nav_starred"
+                android:title="@string/starred"
+                android:icon="@drawable/ic_starred"/>
+            <item
+                android:id="@+id/nav_pending"
+                android:title="@string/pending"
+                android:icon="@drawable/ic_pending"/>
+            <item
+                android:id="@+id/nav_sent"
+                android:title="@string/sent"
+                android:icon="@drawable/ic_sent"/>
+            <item
+                android:id="@+id/nav_outbox"
+                android:title="@string/outbox"
+                android:icon="@drawable/ic_outbox"/>
+            <item
+                android:id="@+id/nav_draf"
+                android:title="@string/draft"
+                android:icon="@drawable/ic_draft"/>
+            <item
+                android:id="@+id/nav_spam"
+                android:title="@string/spam"
+                android:icon="@drawable/ic_spam"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/itemgroup_google_app"
+        android:title="@string/google_app">
+        <menu>
+            <item
+                android:id="@+id/nav_calendar"
+                android:title="@string/calendar"
+                android:icon="@drawable/ic_calendar"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:title="@string/contact"
+                android:icon="@drawable/ic_contact"/>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/groupE">
+        <item
+            android:id="@+id/nav_setting"
+            android:title="@string/setting"
+            android:icon="@drawable/ic_setting"/>
+        <item
+            android:id="@+id/nav_support"
+            android:title="@string/support_amp_feedback"
+            android:icon="@drawable/ic_support"/>
+    </group>
+</menu>
